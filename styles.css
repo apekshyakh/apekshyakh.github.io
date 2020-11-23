@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0;
+}
+header {
+  background-color: rgb(189, 3, 3);
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 15px;
+  float: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul li {
+  /*display: inline-block;*/
+
+  float: left;
+}
+
+ul li a {
+  color: white;
+  padding: 15px 50px; /* top and bottom is 5px */
+  border: 1px transparent white;
+  transition: 0.5s ease;
+  position: fixed;
+  top: 0px;
+}
+
+ul li.active a {
+  background-color: white;
+  color: black;
+}
+/* putting hover styling on the li */
+ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.h1-font {
+  font-family: cursive;
+  align-items: right;
+  color: rgb(189, 3, 3);
+  position: relative;
+  top: 20px;
+}
+
+.h1-padding {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+
+#space {
+  height: 1000px;
+  background: url("file:///Users/apekshyanischal/Desktop/SD4/day1/undraw_journey_lwlj.svg")
+    no-repeat center center fixed;
+
+  background-repeat: no-repeat;
+}
+
+#about-me {
+  background-image: url("file:///Users/apekshyanischal/Desktop/SD4/day1/undraw_Short_bio_re_fmx0%20(1).svg");
+  background-repeat: no-repeat;
+  height: 800px;
+
+  font-size: 20px;
+}
+
+#about-me-header {
+  color: rgb(61, 130, 133);
+  display: flex;
+  justify-content: center;
+}
+
+#about-me-content {
+  color: black;
+  margin-top: 15px;
+  height: 800px;
+  margin-left: 27%;
+}
+
+#places-I-visited {
+  height: 800px;
+  background-image: url("file:///Users/apekshyanischal/Desktop/SD4/day1/undraw_destinations_fpv7.svg");
+  background-repeat: no-repeat;
+}
+#places-I-visited-header {
+  color: blue;
+  display: flex;
+  justify-content: center;
+}
+#places-to-visit {
+  height: 1000px;
+  background-image: url("file:///Users/apekshyanischal/Desktop/SD4/day1/undraw_travel_plans_li01.svg");
+  background-repeat: no-repeat;
+}
+
+#places-to-visit-header {
+  color: #f9a826;
+  display: flex;
+  justify-content: center;
+}
+
+#gallery {
+  height: 1500px;
+}
+
+#gallery-header {
+  display: flex;
+  justify-content: center;
+  color: #26f9b3;
+}
+
+#follow-me {
+  height: 1000px;
+  background-image: url("file:///Users/apekshyanischal/Desktop/SD4/day1/undraw_social_girl_562b.svg");
+  background-repeat: no-repeat;
+}
+
+#follow-me-header {
+  display: flex;
+  justify-content: center;
+  color: #b726f9;
+}
+#follow-me-links {
+  color: blue;
+  font-size: large;
+}
+
+.gap {
+  display: grid;
+  grid-gap: 0.5em;
+  background-color: rgb(224, 212, 178);
+}
