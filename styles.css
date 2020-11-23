@@ -60,14 +60,13 @@ ul li a:hover {
 
 #space {
   height: 1000px;
-  background: url("file:///Users/apekshyanischal/Desktop/SD4/day1/undraw_journey_lwlj.svg")
-    no-repeat center center fixed;
+  background: url("./undraw_journey_lwlj.svg") no-repeat center center fixed;
 
   background-repeat: no-repeat;
 }
 
 #about-me {
-  background-image: url("./undraw_Short_bio_re_fmx0\ \(1\).svg");
+  background-image: url("./undraw_Short_bio_re_fmx0%20(1).svg");
   /*(" /undraw_Short_bio_re_fmx0%20(1).svg");*/
   background-repeat: no-repeat;
   height: 800px;
@@ -90,7 +89,7 @@ ul li a:hover {
 
 #places-I-visited {
   height: 800px;
-  background-image: url("file:///Users/apekshyanischal/Desktop/SD4/day1/undraw_destinations_fpv7.svg");
+  background-image: url("undraw_destinations_fpv7.svg");
   background-repeat: no-repeat;
 }
 #places-I-visited-header {
@@ -100,7 +99,7 @@ ul li a:hover {
 }
 #places-to-visit {
   height: 1000px;
-  background-image: url("file:///Users/apekshyanischal/Desktop/SD4/day1/undraw_travel_plans_li01.svg");
+  background-image: url("undraw_travel_plans_li01.svg");
   background-repeat: no-repeat;
 }
 
@@ -122,7 +121,7 @@ ul li a:hover {
 
 #follow-me {
   height: 1000px;
-  background-image: url("file:///Users/apekshyanischal/Desktop/SD4/day1/undraw_social_girl_562b.svg");
+  background-image: url("undraw_social_girl_562b.svg");
   background-repeat: no-repeat;
 }
 
