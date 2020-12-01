@@ -35,9 +35,9 @@ function addFields(event) {
       let modifiedDestinationValue = prompt("Enter new name");
       let modifiedLocValue = prompt("Enter new location");
       let modifiedPhotoValue = prompt("Enter new photo url");
-      event.target.pareneNode.innerHTML = `
+      event.target.parentNode.innerHTML = `
         <h1>${modifiedDestinationValue}</<h1>
-        <p>${modifiedDestinationValue}</p>
+        <p>${modifiedLocValue}</p>
         <button style="background-color:yellow" id="editBtn" type="submit">Edit</button>
         <button style="background-color:red" id = "removeBtn" type="submit">Remove</button>
         `;
