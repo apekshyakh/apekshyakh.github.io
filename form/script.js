@@ -25,16 +25,24 @@ function addFields(event) {
   <button style="background-color:red" id = "removeBtn" type="submit">Remove</button>
   </li>`;
 
-  document.getElementById("removeBtn").addEventListener("submit", remove);
+  // document.getElementById("removeBtn").addEventListener("submit", remove);
 
-  function remove() {
-    li.counter.innerHTML = "";
-  }
+  onclick = (event) => {
+    if (event.target.matches("button#removeBtn")) {
+      event.target.pareneNode.remove();
+    }
+    if (event.target.matches("button#editBtn")) {
+      let modifiedDestinationValue = prompt("Enter new name");
+      let modifiedLocValue = prompt("Enter new location");
+      let modifiedPhotoValue = prompt("Enter new photo url");
+      event.target.pareneNode.innerHTML = `
+        <h1>${modifiedDestinationValue}</<h1>
+        <p>${modifiedDestinationValue}</p>
+        <button style="background-color:yellow" id="edit_Btn" type="submit">Edit</button>
+        <button style="background-color:red" id = "remove_Btn" type="submit">Remove</button>
+        `;
+    }
+  };
 
-  function edit() {
-    destinationValue = prompt("Enter new name");
-    locValue = prompt("Enter new location");
-    photoValue = prompt("Enter new photo url");
-  }
   counter++;
 }
