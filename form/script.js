@@ -25,7 +25,7 @@ function addFields(event) {
   <button style="background-color:red" id = "removeBtn" type="submit">Remove</button>
   </li>`;
 
-  // document.getElementById("removeBtn").addEventListener("submit", remove);
+  //document.getElementById("removeBtn").addEventListener("submit", remove);
 
   onclick = (event) => {
     if (event.target.matches("button#removeBtn")) {
