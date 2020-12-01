@@ -3,18 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form</title>
+    <title>Forms</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
+<header id ="header">
+  <h1 style="text-align: center">Vacation Destinations WishList</h1>
+  <h3 style="text-align: center">
+    Found exciting places to visition on your next vacation? Use the form below
+    to add them to your wishlist
+  </h2>
+</header>
   <body>
-    <div class="container"></div>
+    <h4 style="text-align: center">Enter destination details</h3>
 
-        <form action = "">
-            
-            <label for = "fullname">Full Name: </label>
-            <input type = "text" name="fullname" id="fullname"></form></input> 
+    <form id="forms">
+      <div id="destinationnamediv">
+        <label for="destinationname">Destination name:</label><br />
+        <input
+          size="40px"
+          height="50px"
+          type="text"
+          placeholder="Enter the name of the destination"
+          name="destinationname"
+          id="destinationname"
+        /><br />
+      </div>
 
-        </form>
+      <div id="locationdiv">
+        <label for="location">Location</label><br />
+        <input
+          type="text"
+          height="50px"
+          placeholder="Where is it located?"
+          name="location"
+          id="location"
+        /><br />
+      </div>
+
+      <div id="photodiv">
+        <label for="photo">Photo</label><br />
+        <input
+          type="text"
+          height="50px"
+          placeholder="Enter an image url of the place"
+          name="photo"
+          id="photo"
+        /><br />
+      </div>
+
+      <div id="descriptiondiv">
+        <label for="description">Description</label><br />
+        <input
+          type="text"
+          height="50px"
+          placeholder="Where is its located?"
+          name="description"
+          id="description"
+        /><br />
+      </div>
+
+      <div id="addtolist">
+        <input style="background-color: rgb(61, 61, 246); 
+        color: white;"
+        height="50px" 
+        type="button" 
+        value="Add to List">
+        </div>
+    </form>
+
     <script src="script.js"></script>
   </body>
 </html>

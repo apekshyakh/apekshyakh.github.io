@@ -1,3 +1,28 @@
-.container {
-  background-color: red;
+#header {
+  background-color: rgb(122, 122, 122);
+  height: 25vh;
+  width: auto;
+  align-content: center;
+  display: grid;
+  align-items: center;
+}
+#forms {
+  margin-left: 200px;
+  font-size: 20px;
+}
+
+#destinationnamediv {
+  margin-bottom: 25px;
+}
+
+#locationdiv {
+  margin-bottom: 25px;
+}
+
+#photodiv {
+  margin-bottom: 25px;
+}
+
+#descriptiondiv {
+  margin-bottom: 25px;
 }
