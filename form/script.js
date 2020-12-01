@@ -29,7 +29,7 @@ function addFields(event) {
 
   onclick = (event) => {
     if (event.target.matches("button#removeBtn")) {
-      event.target.pareneNode.remove();
+      event.target.parentNode.remove();
     }
     if (event.target.matches("button#edit")) {
       let modifiedDestinationValue = prompt("Enter new name");
