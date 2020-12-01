@@ -31,15 +31,15 @@ function addFields(event) {
     if (event.target.matches("button#removeBtn")) {
       event.target.pareneNode.remove();
     }
-    if (event.target.matches("button#editBtn")) {
+    if (event.target.matches("button#edit")) {
       let modifiedDestinationValue = prompt("Enter new name");
       let modifiedLocValue = prompt("Enter new location");
       let modifiedPhotoValue = prompt("Enter new photo url");
       event.target.pareneNode.innerHTML = `
         <h1>${modifiedDestinationValue}</<h1>
         <p>${modifiedDestinationValue}</p>
-        <button style="background-color:yellow" id="edit_Btn" type="submit">Edit</button>
-        <button style="background-color:red" id = "remove_Btn" type="submit">Remove</button>
+        <button style="background-color:yellow" id="editBtn" type="submit">Edit</button>
+        <button style="background-color:red" id = "removeBtn" type="submit">Remove</button>
         `;
     }
   };
